@@ -6,7 +6,7 @@
 
 Entry for the make.fun bounty [Sum up 18 November's world news in one image](https://make.fun/bounty/news-image-20261118).
 
-- `build.py` draws `entry.png` (1024x1024): a dated masthead, 9 illustrated lead-story cards and 35 briefs across 7 regions, 44 stories in all.
+- `build.py` draws `entry.png` (1024x1024): a dated masthead, 12 illustrated lead-story cards with a pinned world map, and 29 briefs across 7 regions, 41 stories in all.
 - `main.py` copies `entry.png` to `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR`). Python 3.13 standard library only, no network.
 - `SOURCES.md` lists the dated source for every story.
 
